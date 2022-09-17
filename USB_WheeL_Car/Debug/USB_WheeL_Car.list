@@ -478,6 +478,7 @@ void USBH_HID_EventCallback(USBH_HandleTypeDef *phost)
  8000616:	f44f 737a 	mov.w	r3, #1000	; 0x3e8
  800061a:	4804      	ldr	r0, [pc, #16]	; (800062c <USBH_HID_EventCallback+0x7c>)
  800061c:	f003 fd88 	bl	8004130 <HAL_UART_Transmit>
+
 }
  8000620:	bf00      	nop
  8000622:	377c      	adds	r7, #124	; 0x7c

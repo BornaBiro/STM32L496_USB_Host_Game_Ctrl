@@ -65,6 +65,7 @@ void USBH_HID_EventCallback(USBH_HandleTypeDef *phost)
 
 	sprintf(tmp, "%d, %d, %d, %d, %d, %d\n\r", key->keys[0], key->keys[1], key->keys[2], key->keys[3], key->keys[4], key->keys[5]);
 	HAL_UART_Transmit(&hlpuart1, tmp, strlen(tmp), 1000);
+
 }
 /* USER CODE END PFP */
 
